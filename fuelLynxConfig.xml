@@ -1,0 +1,32 @@
+<FuelLynxConfig>
+  <MerchantInfo>
+    <MerchantName>iPocket232</MerchantName>
+    <MerchantStreet>400 March Road</MerchantStreet>
+    <MerchantCityPostCode>Kanata K2S 2H1</MerchantCityPostCode>
+    <MerchantState>ON</MerchantState>
+    <MerchantCountryCode>840 - United States</MerchantCountryCode>
+    <MerchantPhone>613 592 7557</MerchantPhone>
+    <MerchantFax>613 216 9096</MerchantFax>
+    <MerchantId>002224</MerchantId>
+  </MerchantInfo>
+  <PinPads>
+    <PinPad name="iSC250">
+      <ConnectionType>TCP</ConnectionType>
+      <ConnectionPort>9302</ConnectionPort>
+      <ConnectionMode>Client</ConnectionMode>
+      <EncryptionMethod>TLSv1.2</EncryptionMethod>
+      <SwipeCardNumberCheck/>
+      <MSR/>
+      <EMV/>
+    </PinPad>
+    <PinPad name="Lane5000">
+      <ConnectionType>TCP</ConnectionType>
+      <ConnectionPort>9304</ConnectionPort>
+      <ConnectionMode>Server</ConnectionMode>
+      <EncryptionMethod>NONE</EncryptionMethod>
+      <MSR/>
+      <PromptCreditDebit/>
+      <ConfirmAmount/>
+    </PinPad>
+  </PinPads>
+</FuelLynxConfig>                                                                                                                                                

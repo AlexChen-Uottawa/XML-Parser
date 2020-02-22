@@ -1,0 +1,9 @@
+These instructions are valid for UNIX-like systems (these steps have
+been run on various Linux distributions; Darwin; Cygwin).
+
+The installation instructions are
+
+  cmake ./
+  make
+
+Note that: This is a tiny project. Parallel compilation is useless.
